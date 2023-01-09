@@ -225,16 +225,82 @@
 .blog-box-container{
     display: flex;
     justify-content: space-around;
-
+    margin-bottom: 100px;
 }
 .blog-box{
     height: 550px;
     width: 480px;
-    border: 2px solid ;
     background-color: rgb(215, 228, 238);
 }
 .blog-img-1{
     width: 480px;
     height: 400px;
 }
+.blog-description, .blog-title{
+    text-align: center;
+}
 /* Blog Section End */
+/* Footer Section Starts */
+.footer{
+    width: 100%;
+    height: 45vh;
+    color: #ffffff;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-logo{
+    margin-bottom: 10px;
+}
+.foot-1-p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.number-2-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.number-2 > a{
+    text-decoration: none;
+}
+.number-2 > a > li{
+    list-style: none;
+    color: #ffffff;
+    padding: 8px;
+}
+.number-3-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.number-3 > ul{
+    list-style: none;
+}
+.number-3 > ul > li{
+    padding: 8px;
+}
+.number-4-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.number-4-description{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.footer-address{
+padding-left: 10px;
+}
+.footer-contact-number{
+ padding-left: 10px;
+}
+.footer-mail{
+padding-left: 10px;
+}
+.fa-solid, .footer-address, .footer-contact-number, .footer-mail{
+    padding-bottom: 12px;
+}
