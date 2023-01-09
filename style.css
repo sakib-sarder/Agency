@@ -38,9 +38,12 @@
     margin-top: 40px;
 }
 .nav-ul > li:hover{
-    color: crimson;
-    transition: 1s ease-in;
+    color: black;
+    transition: 0.5s ease-in;
     cursor:pointer;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
 }
 /* Navigation Bar Ends */
 /* Banner Section Starts */
@@ -75,6 +78,16 @@
 .btn-left{
     color: #ffffff;
     background-color: var(--primary-color);
+    transition: 0.5s ease-in;
+}
+.btn-left:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.btn-right:hover{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    transition: 0.5s ease-in;
 }
 .button{
     display: flex;
@@ -92,6 +105,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.service-button:hover{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    box-shadow: 2px 2px 5px #ffffff;
+    transition: 0.5s ease-in-out;
 }
 .service-title{
     font-size: 55px;
@@ -134,6 +153,12 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
+}
+.more-details-btn:hover{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    box-shadow: 2px 2px 5px  #ffffff;
+    transition: 0.5s ease-in-out;
 }
 .box-1-2{
     display: flex;
@@ -203,6 +228,12 @@
 }
 .appoinment-btn{
     border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+.appoinment-btn:hover{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    box-shadow: 5px 5px 5px black;
 }
 /* Contact Banner Section Ends */
 /* Blogs Section Starts */
@@ -304,3 +335,4 @@ padding-left: 10px;
 .fa-solid, .footer-address, .footer-contact-number, .footer-mail{
     padding-bottom: 12px;
 }
+/* Footer Section End */
