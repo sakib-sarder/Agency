@@ -163,4 +163,78 @@
     width: 100px;
 }
 /* Service Section Ends */
+/* Contact Banner Starts  */
+.contact-container{
+    width: 80%;
+    height: 250px;
+    color: #ffffff;
+    background-color: rgb(230, 62, 20);
+    border-radius: 25px;
+    margin: -150px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 5px 5px 5px rgb(206, 87, 146);
+}
+.contact-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.call-icon{
+    height: 100px;
+    width: 100px;
+}
+.contact-number-right > h3{
+    font-size: 45px;
+}
+.contact-number-right > p{
+    font-size: 18px;
+}
+.contact-number-right{
+    border-right: 3px solid black;
+    padding-right: 25px;
+}
+.contact-banner-middle{
+    font-size: 20px;
+    font-weight: 500;
+}
+.appoinment-btn{
+    border-radius: 20px;
+}
+/* Contact Banner Section Ends */
+/* Blogs Section Starts */
+.blog-header{
+    text-align: center;
+}
+.blog-header-title{
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.span-blogs{
+    color: var(--primary-color);
+}
+.blog-header-description{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.blog-box-container{
+    display: flex;
+    justify-content: space-around;
 
+}
+.blog-box{
+    height: 550px;
+    width: 480px;
+    border: 2px solid ;
+    background-color: rgb(215, 228, 238);
+}
+.blog-img-1{
+    width: 480px;
+    height: 400px;
+}
+/* Blog Section End */
